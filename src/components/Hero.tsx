@@ -1,11 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return <section className="relative w-full h-[80vh] md:h-[85vh] overflow-hidden">
       <div className="absolute inset-0 bg-brand-light">
         <div className="absolute inset-0 bg-cover bg-center" style={{
-        backgroundImage: "url('https://images.unsplash.com/photo-1598529761252-3a9c607e4044?q=80&w=1000&auto=format&fit=crop')"
+        backgroundImage: "url('https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=800&auto=format&fit=crop&q=80&ixlib=rb-4.0.3')"
       }}>
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
