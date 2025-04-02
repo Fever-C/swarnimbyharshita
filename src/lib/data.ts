@@ -14,7 +14,7 @@ export const products: Product[] = [
     id: 1,
     name: "Floral Embroidered Chikan Kurta",
     category: "Kurta",
-    price: 1299,
+    price: 699,
     image: "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/17140926/2022/2/12/10359115-1273-475d-8579-ecd64cbedea71644653196938PARAMOUNTCHIKANWomenMustardYellowPaisleyEmbroideredFlaredSle1.jpg",
     isFeatured: true,
     isNew: true
@@ -23,53 +23,53 @@ export const products: Product[] = [
     id: 2,
     name: "White Chikan Anarkali Suit",
     category: "Suits",
-    price: 2499,
-    image: "https://images.unsplash.com/photo-1614267871887-4bb2eceaedb3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    price: 1499,
+    image: "https://th.bing.com/th?id=OPAC.cF0AErFZvfq%2bCA474C474&w=592&h=550&o=5&dpr=1.5&pid=21.1",
     isFeatured: true
   },
   {
     id: 3,
     name: "Elegant Chikan Palazzo Set",
     category: "Palazzo Sets",
-    price: 1899,
-    image: "https://images.unsplash.com/photo-1609751352001-b2725018ec71?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    price: 1199,
+    image: "https://mysanskritam.com/cdn/shop/files/img3447-267820_l.jpg?v=1703748570",
     isFeatured: true
   },
   {
     id: 4,
     name: "Pastel Blue Chikan Dupatta",
     category: "Dupattas",
-    price: 899,
-    image: "https://images.unsplash.com/photo-1615886753866-79016980fcd7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    price: 699,
+    image: "https://th.bing.com/th/id/OIP.KiQH_3AytEeucmbSftktoQHaLG?rs=1&pid=ImgDetMain",
     isNew: true
   },
   {
     id: 5,
     name: "Traditional Lucknowi Chikan Saree",
     category: "Sarees",
-    price: 3499,
-    image: "https://images.unsplash.com/photo-1621709664082-097dd6608cfa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+    price: 1499,
+    image: "https://th.bing.com/th/id/OIP.byALsgv4-S2HSeBWqDq--wHaLH?rs=1&pid=ImgDetMain"
   },
   {
     id: 6,
     name: "Ivory Thread Work Chikan Kurta",
     category: "Kurta",
-    price: 1599,
-    image: "https://images.unsplash.com/photo-1623853430310-9819f3ea165a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+    price: 1099,
+    image: "https://i.pinimg.com/originals/91/a2/d5/91a2d5910715831820040b1ad89089fe.jpg"
   },
   {
     id: 7,
     name: "Contemporary Chikan Crop Top",
     category: "Tops",
     price: 999,
-    image: "https://images.unsplash.com/photo-1617440168937-c6497888095a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+    image: "https://th.bing.com/th/id/OIP.y1HPakBLuoGgyX0sC7orjgHaLH?rs=1&pid=ImgDetMain"
   },
   {
     id: 8,
     name: "Chanderi Chikan Work Lehenga",
     category: "Lehengas",
-    price: 4999,
-    image: "https://images.unsplash.com/photo-1591213954196-2d0ccb3f8d4c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    price: 3999,
+    image: "https://cdn0.weddingwire.in/article/3650/original/960/jpg/70563-chikankari-lehenga-talking-threads-off-white.jpeg",
     isNew: true
   }
 ];
