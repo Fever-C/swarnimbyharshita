@@ -1,7 +1,5 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-
 const Hero = () => {
   return <section className="relative w-full h-[80vh] md:h-[85vh] overflow-hidden">
       <div className="absolute inset-0 bg-brand-light">
@@ -25,7 +23,7 @@ const Hero = () => {
               Shop Collection
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+            <Button variant="outline" size="lg" className="border-white text-gray-950 bg-slate-50">
               Custom Orders
             </Button>
           </div>
@@ -33,5 +31,4 @@ const Hero = () => {
       </div>
     </section>;
 };
-
 export default Hero;
