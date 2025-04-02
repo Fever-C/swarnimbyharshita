@@ -4,7 +4,7 @@ const Hero = () => {
   return <section className="relative w-full h-[80vh] md:h-[85vh] overflow-hidden">
       <div className="absolute inset-0 bg-brand-light">
         <div className="absolute inset-0 bg-cover bg-center" style={{
-        backgroundImage: "url('https://www.dsource.in/sites/default/files/gallery/3143/5.jpg')"
+        backgroundImage: "url('https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=800&auto=format&fit=crop&q=80&ixlib=rb-4.0.3')"
       }}>
           <div className="absolute inset-0 bg-black/20"></div>
         </div>
@@ -12,10 +12,10 @@ const Hero = () => {
 
       <div className="relative h-full container-custom flex flex-col justify-center">
         <div className="max-w-xl animate-fade-up">
-          <h1 className="text-4xl md:text-6xl tracking-tight mb-4 drop-shadow-sm font-bold text-white">
+          <h1 className="text-4xl tracking-tight mb-4 drop-shadow-sm md:text-6xl font-bold px-0 my-0 text-yellow-300">
             SWARNIM<br />Chikankari Collection
           </h1>
-          <p className="text-lg md:text-xl text-white/90 mb-8 max-w-md drop-shadow-sm">
+          <p className="text-lg md:text-xl mb-8 max-w-md drop-shadow-sm text-white font-light text-center">
             Exquisite handcrafted chikan embroidery for the modern Indian woman. Now offering custom fitting for the perfect silhouette.
           </p>
           <div className="flex gap-4">
