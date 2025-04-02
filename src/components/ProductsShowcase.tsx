@@ -2,7 +2,8 @@
 import { useState } from "react";
 import { products, categories, type Product } from "@/lib/data";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, Scissors } from "lucide-react";
+import { ChevronRight, Scissors, ShoppingCart } from "lucide-react";
+import { toast } from "@/components/ui/use-toast";
 
 const ProductsShowcase = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -63,6 +64,13 @@ const ProductsShowcase = () => {
 };
 
 const ProductCard = ({ product }: { product: Product }) => {
+  const handleAddToCart = () => {
+    toast({
+      title: "Added to cart",
+      description: `${product.name} added to your cart`,
+    });
+  };
+
   return (
     <div className="group">
       <div className="relative overflow-hidden rounded-md mb-4 aspect-[3/4] bg-secondary/50">
@@ -77,9 +85,21 @@ const ProductCard = ({ product }: { product: Product }) => {
           </div>
         )}
       </div>
-      <h3 className="font-medium mb-1">{product.name}</h3>
-      <p className="text-muted-foreground text-sm mb-1">{product.category}</p>
-      <p className="font-medium">₹{product.price.toFixed(0)}</p>
+      <div className="flex justify-between items-start">
+        <div>
+          <h3 className="font-medium mb-1">{product.name}</h3>
+          <p className="text-muted-foreground text-sm mb-1">{product.category}</p>
+          <p className="font-medium">₹{product.price.toFixed(0)}</p>
+        </div>
+        <Button 
+          size="sm" 
+          className="mt-1"
+          onClick={handleAddToCart}
+        >
+          <ShoppingCart className="h-4 w-4 mr-1" />
+          Add
+        </Button>
+      </div>
     </div>
   );
 };
