@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "Floral Embroidered Chikan Kurta",
     category: "Kurta",
     price: 1299,
-    image: "https://images.unsplash.com/photo-1588528402605-1f9d0eb7a6d6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    image: "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/17140926/2022/2/12/10359115-1273-475d-8579-ecd64cbedea71644653196938PARAMOUNTCHIKANWomenMustardYellowPaisleyEmbroideredFlaredSle1.jpg",
     isFeatured: true,
     isNew: true
   },
