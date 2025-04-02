@@ -33,7 +33,7 @@ const AboutSection = () => {
             <div className="aspect-square max-w-md mx-auto md:ml-auto relative">
               <div className="absolute inset-0 translate-x-4 translate-y-4 border-2 border-brand-accent rounded-lg"></div>
               <img 
-                src="https://images.unsplash.com/photo-1572454591674-2739f30a2b2f?w=800&auto=format&fit=crop&q=80&ixlib=rb-4.0.3" 
+                src="https://images.unsplash.com/photo-1595342230257-5c2b76670575?w=800&auto=format&fit=crop&q=80&ixlib=rb-4.0.3" 
                 alt="Artisan working on Chikankari embroidery" 
                 className="relative z-10 w-full h-full object-cover rounded-lg shadow-lg"
               />

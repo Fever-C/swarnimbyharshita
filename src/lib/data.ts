@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "Floral Embroidered Chikan Kurta",
     category: "Kurta",
     price: 1299,
-    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    image: "https://images.unsplash.com/photo-1588528402605-1f9d0eb7a6d6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isFeatured: true,
     isNew: true
   },
@@ -24,7 +24,7 @@ export const products: Product[] = [
     name: "White Chikan Anarkali Suit",
     category: "Suits",
     price: 2499,
-    image: "https://images.unsplash.com/photo-1643320753025-b10c50e0fb35?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    image: "https://images.unsplash.com/photo-1614267871887-4bb2eceaedb3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isFeatured: true
   },
   {
@@ -32,7 +32,7 @@ export const products: Product[] = [
     name: "Elegant Chikan Palazzo Set",
     category: "Palazzo Sets",
     price: 1899,
-    image: "https://images.unsplash.com/photo-1614093302611-8efc4de12e3d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    image: "https://images.unsplash.com/photo-1609751352001-b2725018ec71?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isFeatured: true
   },
   {
@@ -40,7 +40,7 @@ export const products: Product[] = [
     name: "Pastel Blue Chikan Dupatta",
     category: "Dupattas",
     price: 899,
-    image: "https://images.unsplash.com/photo-1610030469668-8e4e3f92345f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    image: "https://images.unsplash.com/photo-1615886753866-79016980fcd7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isNew: true
   },
   {
@@ -48,28 +48,28 @@ export const products: Product[] = [
     name: "Traditional Lucknowi Chikan Saree",
     category: "Sarees",
     price: 3499,
-    image: "https://images.unsplash.com/photo-1595342084842-98e113868cf4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+    image: "https://images.unsplash.com/photo-1621709664082-097dd6608cfa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
   },
   {
     id: 6,
     name: "Ivory Thread Work Chikan Kurta",
     category: "Kurta",
     price: 1599,
-    image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+    image: "https://images.unsplash.com/photo-1623853430310-9819f3ea165a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
   },
   {
     id: 7,
     name: "Contemporary Chikan Crop Top",
     category: "Tops",
     price: 999,
-    image: "https://images.unsplash.com/photo-1593476087123-36d1de271f08?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+    image: "https://images.unsplash.com/photo-1617440168937-c6497888095a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
   },
   {
     id: 8,
     name: "Chanderi Chikan Work Lehenga",
     category: "Lehengas",
     price: 4999,
-    image: "https://images.unsplash.com/photo-1614252369475-531eba780d5b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    image: "https://images.unsplash.com/photo-1591213954196-2d0ccb3f8d4c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isNew: true
   }
 ];
