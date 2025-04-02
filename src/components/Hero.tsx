@@ -23,7 +23,7 @@ const Hero = () => {
               Shop Collection
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10 px-6">
+            <Button variant="outline" size="lg" className="border-white px-6 text-gray-950 bg-slate-50">
               Custom Orders
             </Button>
           </div>
