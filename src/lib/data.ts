@@ -12,75 +12,77 @@ export type Product = {
 export const products: Product[] = [
   {
     id: 1,
-    name: "Relaxed Fit Cotton T-shirt",
-    category: "T-shirts",
-    price: 29.99,
-    image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    name: "Floral Embroidered Chikan Kurta",
+    category: "Kurta",
+    price: 1299,
+    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isFeatured: true,
     isNew: true
   },
   {
     id: 2,
-    name: "Slim Fit Denim Jeans",
-    category: "Bottoms",
-    price: 79.99,
-    image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    name: "White Chikan Anarkali Suit",
+    category: "Suits",
+    price: 2499,
+    image: "https://images.unsplash.com/photo-1643320753025-b10c50e0fb35?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isFeatured: true
   },
   {
     id: 3,
-    name: "Oversized Cotton Hoodie",
-    category: "Outerwear",
-    price: 59.99,
-    image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    name: "Elegant Chikan Palazzo Set",
+    category: "Palazzo Sets",
+    price: 1899,
+    image: "https://images.unsplash.com/photo-1614093302611-8efc4de12e3d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isFeatured: true
   },
   {
     id: 4,
-    name: "Linen Blend Shirt",
-    category: "Shirts",
-    price: 49.99,
-    image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    name: "Pastel Blue Chikan Dupatta",
+    category: "Dupattas",
+    price: 899,
+    image: "https://images.unsplash.com/photo-1610030469668-8e4e3f92345f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isNew: true
   },
   {
     id: 5,
-    name: "Classic Wool Blend Coat",
-    category: "Outerwear",
-    price: 149.99,
-    image: "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+    name: "Traditional Lucknowi Chikan Saree",
+    category: "Sarees",
+    price: 3499,
+    image: "https://images.unsplash.com/photo-1595342084842-98e113868cf4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
   },
   {
     id: 6,
-    name: "Cotton Blend Sweater",
-    category: "Knitwear",
-    price: 69.99,
-    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+    name: "Ivory Thread Work Chikan Kurta",
+    category: "Kurta",
+    price: 1599,
+    image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
   },
   {
     id: 7,
-    name: "Straight Leg Twill Pants",
-    category: "Bottoms",
-    price: 69.99,
-    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+    name: "Contemporary Chikan Crop Top",
+    category: "Tops",
+    price: 999,
+    image: "https://images.unsplash.com/photo-1593476087123-36d1de271f08?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
   },
   {
     id: 8,
-    name: "Lightweight Puffer Jacket",
-    category: "Outerwear",
-    price: 99.99,
-    image: "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    name: "Chanderi Chikan Work Lehenga",
+    category: "Lehengas",
+    price: 4999,
+    image: "https://images.unsplash.com/photo-1614252369475-531eba780d5b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     isNew: true
   }
 ];
 
 export const categories = [
   "All",
-  "T-shirts",
-  "Shirts",
-  "Knitwear",
-  "Bottoms",
-  "Outerwear"
+  "Kurta",
+  "Suits",
+  "Palazzo Sets",
+  "Dupattas",
+  "Sarees",
+  "Tops",
+  "Lehengas"
 ];
 
 export type BrandInfo = {
@@ -97,15 +99,15 @@ export type BrandInfo = {
 };
 
 export const brandInfo: BrandInfo = {
-  name: "MAISON",
-  tagline: "Refined Essentials for the Modern Wardrobe",
-  description: "Founded with a passion for quality and sustainability, MAISON creates timeless pieces that transcend seasonal trends. Our commitment to ethical production and premium materials results in clothing that looks good and feels good to wear.",
-  foundedYear: 2018,
+  name: "SWARNIM",
+  tagline: "Traditional Chikan Elegance for the Modern Woman",
+  description: "Founded with passion for authentic Indian craftsmanship, Swarnim celebrates the timeless art of Chikankari embroidery. We create beautifully detailed, handcrafted women's apparel that honors tradition while embracing contemporary style. Each piece is meticulously crafted by skilled artisans using traditional techniques passed down through generations.",
+  foundedYear: 2023,
   values: [
+    "Traditional Craftsmanship",
+    "Artisan Empowerment",
     "Sustainable Materials",
-    "Ethical Production",
-    "Timeless Design",
-    "Quality Craftsmanship"
+    "Custom Tailoring"
   ],
   socialLinks: {
     instagram: "https://instagram.com",

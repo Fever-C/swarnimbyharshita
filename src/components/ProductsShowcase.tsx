@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { products, categories, type Product } from "@/lib/data";
 import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Scissors } from "lucide-react";
 
 const ProductsShowcase = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -16,7 +16,7 @@ const ProductsShowcase = () => {
       <div className="flex flex-col items-center mb-12">
         <h2 className="text-3xl md:text-4xl font-medium mb-4 text-center">Our Collection</h2>
         <p className="text-muted-foreground text-center max-w-xl mb-8">
-          Explore our curated collection of modern essentials, designed with quality and sustainability in mind.
+          Discover our exquisite range of handcrafted Chikankari garments, meticulously created by skilled artisans from Lucknow.
         </p>
         
         <div className="flex flex-wrap justify-center gap-2 mb-8">
@@ -39,9 +39,22 @@ const ProductsShowcase = () => {
         ))}
       </div>
 
+      <div className="mt-16 p-6 bg-secondary/50 rounded-lg max-w-3xl mx-auto text-center">
+        <div className="flex justify-center mb-4">
+          <Scissors className="h-8 w-8" />
+        </div>
+        <h3 className="text-2xl font-medium mb-2">Custom Fitting Service</h3>
+        <p className="text-muted-foreground mb-4">
+          Each piece can be tailored to your exact measurements for the perfect fit. Just select your size preferences during checkout.
+        </p>
+        <Button variant="default" size="lg">
+          Learn More About Custom Fitting
+        </Button>
+      </div>
+
       <div className="flex justify-center mt-12">
         <Button variant="outline" size="lg" className="group">
-          View All Products
+          View All Designs
           <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
         </Button>
       </div>
@@ -66,7 +79,7 @@ const ProductCard = ({ product }: { product: Product }) => {
       </div>
       <h3 className="font-medium mb-1">{product.name}</h3>
       <p className="text-muted-foreground text-sm mb-1">{product.category}</p>
-      <p className="font-medium">${product.price.toFixed(2)}</p>
+      <p className="font-medium">₹{product.price.toFixed(0)}</p>
     </div>
   );
 };
